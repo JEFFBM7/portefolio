@@ -144,7 +144,7 @@ export default function Hero() {
               <div className="w-72 h-72 md:w-96 md:h-96 rounded-full overflow-hidden border-4 border-[var(--accent)] relative z-10 bg-[var(--card-bg)]">
                 <div className="w-full h-full bg-gradient-to-br from-[var(--accent)]/20 to-[var(--primary-light)]/40 flex items-center justify-center">
                   <span className="text-8xl md:text-9xl font-bold text-[var(--accent)]/30">
-                    AM
+                    JB
                   </span>
                 </div>
               </div>
