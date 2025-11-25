@@ -1,10 +1,10 @@
 export const profile = {
-  name: "Alex Martin",
+  name: "JEFF BOPE",
   title: "Développeur Full-Stack",
   tagline: "Je crée des expériences web modernes et performantes",
-  email: "contact@alexmartin.dev",
-  phone: "+33 6 12 34 56 78",
-  location: "Paris, France",
+  email: "jeffhdbope@gmail.com",
+  phone: "+243 97 54 81 773",
+location: "LUBUMBASHI, RDC",
   avatar: "/images/profile.jpg",
   
   bio: `Développeur Full-Stack passionné avec plus de 5 ans d'expérience dans la création d'applications web et mobiles. 
