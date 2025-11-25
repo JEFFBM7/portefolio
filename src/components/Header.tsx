@@ -40,7 +40,7 @@ export default function Header() {
           <Link href="#hero" className="flex items-center space-x-2">
             <span className="text-2xl font-bold">
               <span className="text-[var(--accent)]">{"<"}</span>
-              AM
+              JB
               <span className="text-[var(--accent)]">{"/>"}</span>
             </span>
           </Link>

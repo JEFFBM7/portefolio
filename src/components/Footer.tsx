@@ -23,7 +23,7 @@ export default function Footer() {
             <Link href="#hero" className="inline-block">
               <span className="text-2xl font-bold text-white">
                 <span className="text-[var(--accent)]">{"<"}</span>
-                AM
+                JB
                 <span className="text-[var(--accent)]">{"/>"}</span>
               </span>
             </Link>
