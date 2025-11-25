@@ -14,11 +14,11 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Alex Martin | Développeur Full-Stack",
-  description: "Portfolio de Alex Martin, développeur Full-Stack passionné par la création d'expériences web modernes avec React, Next.js, Node.js et plus encore.",
+  title: "JEFF BOPE | Développeur Full-Stack",
+  description: "Portfolio de JEFF BOPE, développeur Full-Stack passionné par la création d'expériences web modernes avec React, Next.js, Node.js et plus encore.",
   keywords: ["développeur", "full-stack", "react", "next.js", "node.js", "typescript", "portfolio"],
-  authors: [{ name: "Alex Martin" }],
-  creator: "Alex Martin",
+  authors: [{ name: "JEFF BOPE" }],
+  creator: "JEFF BOPE",
   openGraph: {
     type: "website",
     locale: "fr_FR",
