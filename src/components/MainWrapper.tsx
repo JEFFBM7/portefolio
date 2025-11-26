@@ -61,7 +61,7 @@ export default function MainWrapper({ children }: MainWrapperProps) {
         style={{ 
           perspective: "1000px",
           perspectiveOrigin: "left center",
-          zIndex: 10,
+          zIndex: 20,
         }}
       >
         {/* Main content wrapper avec animation 3D style Flutter */}
@@ -85,22 +85,11 @@ export default function MainWrapper({ children }: MainWrapperProps) {
           style={{
             transformOrigin: "left center",
             transformStyle: "preserve-3d",
-            zIndex: isMenuOpen ? 20 : 1,
             boxShadow: isMenuOpen 
               ? "-10px 0 50px rgba(0, 0, 0, 0.5), -5px 0 20px rgba(0, 0, 0, 0.3)" 
               : "none",
           }}
         >
-          {/* Overlay cliquable pour fermer */}
-          <motion.div 
-            initial={{ opacity: 0 }}
-            animate={{ opacity: isMenuOpen ? 1 : 0 }}
-            transition={{ duration: 0.3 }}
-            className={`absolute inset-0 md:hidden ${isMenuOpen ? "pointer-events-auto cursor-pointer" : "pointer-events-none"}`}
-            style={{ zIndex: 50 }}
-            onClick={() => setIsMenuOpen(false)}
-          />
-          
           {/* Bordure arrondie décorative */}
           <motion.div
             initial={{ opacity: 0 }}

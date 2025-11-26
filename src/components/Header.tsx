@@ -29,11 +29,13 @@ export default function Header() {
 
   return (
     <>
-      {/* Menu Drawer - TOUJOURS visible et fixe en arrière plan (style Flutter) */}
+      {/* Menu Drawer - Fixe en arrière plan, visible seulement quand menu ouvert */}
       <div 
-        className="fixed top-0 left-0 bottom-0 w-[230px] md:hidden"
+        className={`fixed top-0 left-0 bottom-0 w-[230px] md:hidden transition-all duration-300 ${
+          isMenuOpen ? "pointer-events-auto opacity-100" : "pointer-events-none opacity-0"
+        }`}
         style={{ 
-          zIndex: 5,
+          zIndex: isMenuOpen ? 25 : 10,
           backgroundColor: "#1a2e2e",
         }}
       >
