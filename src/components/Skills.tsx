@@ -4,24 +4,24 @@ import { motion } from "framer-motion";
 import { useInView } from "framer-motion";
 import { useRef, useState } from "react";
 import {
-  SiReact, SiNextdotjs, SiTypescript, SiJavascript, SiTailwindcss,
-  SiVuedotjs, SiHtml5, SiCss3, SiNodedotjs, SiExpress, SiPython,
-  SiFastapi, SiNestjs, SiGraphql, SiPostgresql, SiMongodb, SiRedis,
-  SiMysql, SiPrisma, SiDocker, SiKubernetes,
+  SiJavascript, SiTailwindcss,
+  SiVuedotjs, SiHtml5, SiCss3, SiPhp, SiLaravel, SiPython,
+  SiDjango, SiFastapi, SiNestjs, SiPostgresql, SiMongodb,
+  SiMysql, SiDocker,
   SiGithubactions, SiVercel, SiLinux, SiGit,
-  SiFigma, SiPostman, SiJest
+  SiFigma, SiPostman
 } from "react-icons/si";
 import { VscCode } from "react-icons/vsc";
 import { FaAws } from "react-icons/fa";
 import { skills, skillCategories, type Skill } from "@/data/skills";
 
 const iconMap: { [key: string]: React.ElementType } = {
-  SiReact, SiNextdotjs, SiTypescript, SiJavascript, SiTailwindcss,
-  SiVuedotjs, SiHtml5, SiCss3, SiNodedotjs, SiExpress, SiPython,
-  SiFastapi, SiNestjs, SiGraphql, SiPostgresql, SiMongodb, SiRedis,
-  SiMysql, SiPrisma, SiDocker, SiKubernetes, FaAws,
+  SiJavascript, SiTailwindcss,
+  SiVuedotjs, SiHtml5, SiCss3, SiPhp, SiLaravel, SiPython,
+  SiDjango, SiFastapi, SiNestjs, SiPostgresql, SiMongodb,
+  SiMysql, SiDocker, FaAws,
   SiGithubactions, SiVercel, SiLinux, SiGit, VscCode,
-  SiFigma, SiPostman, SiJest
+  SiFigma, SiPostman
 };
 
 export default function Skills() {

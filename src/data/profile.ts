@@ -1,52 +1,52 @@
 export const profile = {
   name: "JEFF BOPE",
-  title: "Développeur Full-Stack",
-  tagline: "Je crée des expériences web modernes et performantes",
+  title: "Ingénieur Logiciel",
+  tagline: "Développeur passionné par l'innovation et la résolution de problèmes complexes",
   email: "jeffhdbope@gmail.com",
   phone: "+243 97 54 81 773",
-location: "LUBUMBASHI, RDC",
+  location: "Lubumbashi, RDC",
   avatar: "/images/profile.jpg",
   
-  bio: `Développeur Full-Stack passionné avec plus de 5 ans d'expérience dans la création d'applications web et mobiles. 
+  bio: `Développeur de logiciels passionné par l'innovation et la résolution de problèmes complexes. 
   
-Je me spécialise dans les technologies JavaScript/TypeScript modernes côté frontend (React, Next.js) et backend (Node.js, Express, NestJS). 
+Avec une expertise en développement mobile, développement web et une forte compréhension des architectures de données et des systèmes, je m'efforce de créer des solutions performantes et évolutives. 
 
-Mon approche combine une attention particulière à l'expérience utilisateur, des architectures scalables et des bonnes pratiques de développement (tests, CI/CD, clean code).`,
+Mon parcours m'a permis de maîtriser plusieurs langages de programmation et technologies, me permettant de concevoir des applications complètes allant du web au mobile en passant par le desktop.`,
 
   socialLinks: {
-    github: "https://github.com/alexmartin",
-    linkedin: "https://linkedin.com/in/alexmartin",
-    twitter: "https://twitter.com/alexmartin_dev",
+    github: "https://github.com/JEFFBM7",
+    linkedin: "https://linkedin.com/in/jeff-bope",
+    twitter: "",
   },
 
-  resumeUrl: "/cv-alex-martin.pdf",
+  resumeUrl: "/cv-jeff-bope.pdf",
 
   stats: [
-    { label: "Années d'expérience", value: "5+" },
-    { label: "Projets réalisés", value: "50+" },
-    { label: "Clients satisfaits", value: "30+" },
-    { label: "Technologies maîtrisées", value: "20+" },
+    { label: "Années d'études", value: "4+" },
+    { label: "Projets réalisés", value: "15+" },
+    { label: "Clients satisfaits", value: "5+" },
+    { label: "Technologies maîtrisées", value: "15+" },
   ],
 
   services: [
     {
-      title: "Développement Frontend",
-      description: "Interfaces utilisateur modernes, responsives et accessibles avec React, Next.js et Tailwind CSS.",
+      title: "Développement Web",
+      description: "Applications web modernes et responsives avec PHP, Laravel, Vue.js, HTML5 et CSS3.",
       icon: "FaCode",
     },
     {
-      title: "Développement Backend",
-      description: "APIs robustes et scalables avec Node.js, Express, NestJS et bases de données SQL/NoSQL.",
-      icon: "FaServer",
+      title: "Développement Mobile",
+      description: "Applications mobiles natives Android avec Java et Kotlin pour une expérience utilisateur optimale.",
+      icon: "FaMobile",
     },
     {
-      title: "Architecture Cloud",
-      description: "Déploiement et gestion d'infrastructures sur AWS, GCP ou Vercel avec CI/CD automatisé.",
-      icon: "FaCloud",
+      title: "Développement Desktop",
+      description: "Applications desktop robustes et performantes avec Java pour la gestion d'entreprise.",
+      icon: "FaDesktop",
     },
     {
-      title: "Consulting Technique",
-      description: "Audit de code, optimisation des performances et accompagnement sur les choix technologiques.",
+      title: "Solutions IoT & IA",
+      description: "Systèmes intelligents avec Arduino, détection de texte IA et solutions innovantes avec Python.",
       icon: "FaLightbulb",
     },
   ],
